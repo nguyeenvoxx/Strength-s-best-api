@@ -1,0 +1,49 @@
+2025-06-29 20:41:31 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:43:44 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:43:44 [INFO]: Server chạy trên cổng 3000 vào lúc 20:43:44 29/6/2025
+2025-06-29 20:43:44 [INFO]: Các route đã đăng ký:
+2025-06-29 20:46:31 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:46:32 [INFO]: Server chạy trên cổng 3000 vào lúc 20:46:32 29/6/2025
+2025-06-29 20:46:32 [INFO]: Các route đã đăng ký:
+2025-06-29 20:46:46 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:46:46 [INFO]: Server chạy trên cổng 3000 vào lúc 20:46:46 29/6/2025
+2025-06-29 20:46:46 [INFO]: Các route đã đăng ký:
+2025-06-29 20:47:00 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:47:00 [INFO]: Server chạy trên cổng 3000 vào lúc 20:47:00 29/6/2025
+2025-06-29 20:47:00 [INFO]: Các route đã đăng ký:
+2025-06-29 20:47:24 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:47:24 [INFO]: Server chạy trên cổng 3000 vào lúc 20:47:24 29/6/2025
+2025-06-29 20:47:24 [INFO]: Các route đã đăng ký:
+2025-06-29 20:49:17 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:49:17 [INFO]: Server chạy trên cổng 3000 vào lúc 20:49:17 29/6/2025
+2025-06-29 20:49:17 [INFO]: Các route đã đăng ký:
+2025-06-29 20:53:52 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:53:52 [INFO]: Server chạy trên cổng 3000 vào lúc 20:53:52 29/6/2025
+2025-06-29 20:53:52 [INFO]: Các route đã đăng ký:
+2025-06-29 20:55:35 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:55:35 [INFO]: Server chạy trên cổng 3000 vào lúc 20:55:35 29/6/2025
+2025-06-29 20:55:35 [INFO]: Các route đã đăng ký:
+2025-06-29 20:59:43 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 20:59:43 [INFO]: Server chạy trên cổng 3000 vào lúc 20:59:43 29/6/2025
+2025-06-29 20:59:43 [INFO]: Các route đã đăng ký:
+2025-06-29 21:01:06 [INFO]: Người dùng mới đăng ký: test@gmail.com
+2025-06-29 21:02:14 [INFO]: Người dùng đăng nhập: test@example.com
+2025-06-29 21:02:26 [INFO]: Người dùng đăng nhập: test@example.com
+2025-06-29 21:02:36 [INFO]: Người dùng đăng nhập: test@gmail.com
+2025-06-29 21:06:39 [INFO]: Người dùng đăng nhập: test@example.com
+2025-06-29 21:06:50 [INFO]: Người dùng đăng nhập: test@example.com
+2025-06-29 21:17:11 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 21:17:11 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-06-29 21:17:11 [INFO]: Cập nhật dữ liệu thành công
+2025-06-29 21:17:11 [INFO]: Đóng kết nối MongoDB
+2025-06-29 21:17:29 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 21:17:29 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-06-29 21:17:29 [INFO]: Xóa dữ liệu cũ thành công
+2025-06-29 21:17:29 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: nameCategory_1 dup key: { nameCategory: null }
+2025-06-29 21:17:29 [INFO]: Đóng kết nối MongoDB
+2025-06-29 21:19:06 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 21:19:06 [INFO]: Server chạy trên cổng 3000 vào lúc 21:19:06 29/6/2025
+2025-06-29 21:19:06 [INFO]: Các route đã đăng ký:
+2025-06-29 22:06:15 [INFO]: Kết nối MongoDB thành công!
+2025-06-29 22:06:15 [INFO]: Server chạy trên cổng 3000 vào lúc 22:06:15 29/6/2025
+2025-06-29 22:06:15 [INFO]: Các route đã đăng ký:
