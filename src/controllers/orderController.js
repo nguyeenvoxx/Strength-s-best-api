@@ -71,7 +71,14 @@ exports.createOrder = catchAsync(async (req, res, next) => {
 
 // Lấy tất cả đơn hàng
 exports.getOrders = catchAsync(async (req, res, next) => {
-  const orders = await Order.find({ idUser: req.user._id }).populate('idUser');
+  let filter = {};
+  // Nếu không phải admin, chỉ lấy đơn hàng của user đó
+  if (req.user.role !== 'admin') {
+    filter = { idUser: req.user._id };
+  }
+
+  const orders = await Order.find(filter).populate('idUser', 'name email');
+
   res.status(200).json({
     status: 'thành công',
     results: orders.length,

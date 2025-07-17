@@ -47,3 +47,348 @@
 2025-06-29 22:06:15 [INFO]: Kết nối MongoDB thành công!
 2025-06-29 22:06:15 [INFO]: Server chạy trên cổng 3000 vào lúc 22:06:15 29/6/2025
 2025-06-29 22:06:15 [INFO]: Các route đã đăng ký:
+2025-07-02 20:03:25 [INFO]: Kết nối MongoDB thành công!
+2025-07-02 20:03:25 [INFO]: Server chạy trên cổng 3000 vào lúc 20:03:25 2/7/2025
+2025-07-02 20:03:25 [INFO]: Các route đã đăng ký:
+2025-07-02 20:08:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-02 20:08:08 [INFO]: Server chạy trên cổng 3000 vào lúc 20:08:08 2/7/2025
+2025-07-02 20:08:08 [INFO]: Các route đã đăng ký:
+2025-07-03 20:09:56 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:09:56 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:09:56 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:09:56 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: nameCategory_1 dup key: { nameCategory: null }
+2025-07-03 20:09:56 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:11:18 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:11:18 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-07-03 20:11:18 [INFO]: Cập nhật dữ liệu thành công
+2025-07-03 20:11:18 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:13:26 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:13:26 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:13:27 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:13:27 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: nameCategory_1 dup key: { nameCategory: null }
+2025-07-03 20:13:27 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:14:37 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:14:37 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:14:37 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:14:37 [ERROR]: Lỗi khi nạp dữ liệu: Category validation failed: nameCategory: Path `nameCategory` is required.
+2025-07-03 20:14:37 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:16:51 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:16:51 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:16:52 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:16:52 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-03 20:16:52 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:24:27 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:24:27 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:24:27 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:24:27 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-03 20:24:27 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:33:47 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:33:47 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-07-03 20:33:47 [INFO]: Cập nhật dữ liệu thành công
+2025-07-03 20:33:47 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:33:54 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:33:54 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:33:54 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:33:54 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: nameCategory_1 dup key: { nameCategory: null }
+2025-07-03 20:33:54 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:36:26 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:36:26 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:36:26 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:36:26 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-03 20:36:26 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:45:07 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:45:07 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-07-03 20:45:07 [INFO]: Cập nhật dữ liệu thành công
+2025-07-03 20:45:07 [INFO]: Đóng kết nối MongoDB
+2025-07-03 20:45:13 [INFO]: Kết nối MongoDB thành công!
+2025-07-03 20:45:13 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-03 20:45:13 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-03 20:45:13 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-03 20:45:13 [INFO]: Đóng kết nối MongoDB
+2025-07-10 17:49:06 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:50:37 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:50:42 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:51:27 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:51:31 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:51:31 [INFO]: Server chạy trên cổng 3000 vào lúc 17:51:31 10/7/2025
+2025-07-10 17:51:31 [INFO]: Các route đã đăng ký:
+2025-07-10 17:57:50 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:57:50 [INFO]: Server chạy trên cổng 3000 vào lúc 17:57:50 10/7/2025
+2025-07-10 17:57:50 [INFO]: Các route đã đăng ký:
+2025-07-10 17:58:50 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:58:50 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 17:58:51 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 17:58:51 [ERROR]: Lỗi khi nạp dữ liệu: bcrypt is not defined
+2025-07-10 17:58:51 [INFO]: Đóng kết nối MongoDB
+2025-07-10 17:59:32 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 17:59:32 [INFO]: Server chạy trên cổng 3000 vào lúc 17:59:32 10/7/2025
+2025-07-10 17:59:32 [INFO]: Các route đã đăng ký:
+2025-07-10 19:43:12 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:43:12 [INFO]: Server chạy trên cổng 3000 vào lúc 19:43:12 10/7/2025
+2025-07-10 19:43:12 [INFO]: Các route đã đăng ký:
+2025-07-10 19:48:38 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:48:38 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:48:38 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:48:38 [ERROR]: Lỗi khi nạp dữ liệu: bcrypt is not defined
+2025-07-10 19:48:38 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:49:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:49:08 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:49:08 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:49:08 [ERROR]: Lỗi khi nạp dữ liệu: bcrypt is not defined
+2025-07-10 19:49:08 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:50:12 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:50:12 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:50:12 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:50:12 [ERROR]: Lỗi khi nạp dữ liệu: hashedUsers is not defined
+2025-07-10 19:50:12 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:50:28 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:50:28 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:50:28 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:50:28 [ERROR]: Lỗi khi nạp dữ liệu: hashedUsers is not defined
+2025-07-10 19:50:28 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:53:01 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:53:01 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:53:01 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:53:01 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 19:53:01 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 19:53:01 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:57:31 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:57:31 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 19:57:31 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 19:57:31 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 19:57:31 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 19:57:31 [INFO]: Đóng kết nối MongoDB
+2025-07-10 19:59:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 19:59:08 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-07-10 19:59:08 [INFO]: Cập nhật dữ liệu thành công
+2025-07-10 19:59:08 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:00:26 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:00:26 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:00:26 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:00:26 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:00:26 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 20:00:26 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:02:33 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:02:33 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:02:33 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:02:33 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:02:33 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 20:02:33 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:03:22 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:03:22 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:03:22 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:03:22 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:03:22 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 20:03:22 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:07:00 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:07:00 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:07:01 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:07:01 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:07:01 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 20:07:01 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:07:13 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:07:13 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:07:13 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:07:13 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:07:13 [ERROR]: Lỗi khi nạp dữ liệu: E11000 duplicate key error collection: strength-best.categories index: name_1 dup key: { name: null }
+2025-07-10 20:07:13 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:09:32 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:09:32 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:09:32 [INFO]: Đã xoá index "name_1" nếu tồn tại
+2025-07-10 20:09:32 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:09:32 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:09:32 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-10 20:09:32 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:11:06 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:11:06 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:11:06 [INFO]: Đã xoá index "name_1" nếu tồn tại
+2025-07-10 20:11:06 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:11:06 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:11:06 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-10 20:11:06 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:11:18 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:11:18 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:11:18 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:11:18 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:11:18 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-10 20:11:18 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:15:00 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:15:00 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-10 20:15:00 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-10 20:15:00 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-10 20:15:00 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-10 20:15:00 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:15:12 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:15:12 [INFO]: Kết nối MongoDB để cập nhật dữ liệu
+2025-07-10 20:15:12 [INFO]: Cập nhật dữ liệu thành công
+2025-07-10 20:15:12 [INFO]: Đóng kết nối MongoDB
+2025-07-10 20:17:17 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 20:17:18 [INFO]: Server chạy trên cổng 3000 vào lúc 20:17:17 10/7/2025
+2025-07-10 20:17:18 [INFO]: Các route đã đăng ký:
+2025-07-10 20:20:25 [INFO]: Người dùng mới đăng ký: test@example.com
+2025-07-10 20:32:36 [INFO]: Người dùng đăng nhập: test@example.com
+2025-07-10 22:30:42 [INFO]: Kết nối MongoDB thành công!
+2025-07-10 22:30:42 [INFO]: Server chạy trên cổng 3000 vào lúc 22:30:42 10/7/2025
+2025-07-10 22:30:42 [INFO]: Các route đã đăng ký:
+2025-07-17 14:50:02 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:50:02 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 14:50:02 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 14:50:02 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 14:50:02 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 14:50:02 [INFO]: Đóng kết nối MongoDB
+2025-07-17 14:50:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:50:08 [INFO]: Server chạy trên cổng 3000 vào lúc 14:50:08 17/7/2025
+2025-07-17 14:50:08 [INFO]: Các route đã đăng ký:
+2025-07-17 14:51:35 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:51:35 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 14:51:35 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 14:51:35 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 14:51:35 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 14:51:35 [INFO]: Đóng kết nối MongoDB
+2025-07-17 14:51:51 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:51:51 [INFO]: Server chạy trên cổng 3000 vào lúc 14:51:51 17/7/2025
+2025-07-17 14:51:51 [INFO]: Các route đã đăng ký:
+2025-07-17 14:54:42 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:54:42 [INFO]: Server chạy trên cổng 3000 vào lúc 14:54:42 17/7/2025
+2025-07-17 14:54:42 [INFO]: Các route đã đăng ký:
+2025-07-17 14:56:10 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:56:10 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 14:56:10 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 14:56:11 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 14:56:11 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 14:56:11 [INFO]: Đóng kết nối MongoDB
+2025-07-17 14:56:20 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 14:56:20 [INFO]: Server chạy trên cổng 3000 vào lúc 14:56:20 17/7/2025
+2025-07-17 14:56:20 [INFO]: Các route đã đăng ký:
+2025-07-17 15:11:13 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 15:11:13 [INFO]: Server chạy trên cổng 3000 vào lúc 15:11:13 17/7/2025
+2025-07-17 15:11:13 [INFO]: Các route đã đăng ký:
+2025-07-17 15:11:19 [INFO]: Người dùng đăng nhập: admin@example.com
+2025-07-17 15:13:02 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 15:15:35 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 15:43:35 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 15:51:52 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 15:51:52 [INFO]: Server chạy trên cổng 3000 vào lúc 15:51:52 17/7/2025
+2025-07-17 15:51:52 [INFO]: Các route đã đăng ký:
+2025-07-17 15:55:57 [INFO]: Người dùng đăng nhập: admin@example.com
+2025-07-17 17:21:57 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 17:25:00 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 17:25:22 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 17:25:38 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 17:33:38 [INFO]: Xóa danh mục: undefined
+2025-07-17 17:41:34 [INFO]: Xóa danh mục: undefined
+2025-07-17 17:41:56 [INFO]: Xóa danh mục: undefined
+2025-07-17 18:01:27 [INFO]: Xóa danh mục: undefined
+2025-07-17 18:02:05 [INFO]: Xóa danh mục: undefined
+2025-07-17 18:04:54 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:04:54 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 18:04:54 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 18:04:55 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 18:04:55 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 18:04:55 [INFO]: Đóng kết nối MongoDB
+2025-07-17 18:05:45 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:05:45 [INFO]: Server chạy trên cổng 3000 vào lúc 18:05:45 17/7/2025
+2025-07-17 18:05:45 [INFO]: Các route đã đăng ký:
+2025-07-17 18:06:38 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:06:38 [INFO]: Server chạy trên cổng 3000 vào lúc 18:06:38 17/7/2025
+2025-07-17 18:06:38 [INFO]: Các route đã đăng ký:
+2025-07-17 18:06:47 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:06:47 [INFO]: Server chạy trên cổng 3000 vào lúc 18:06:47 17/7/2025
+2025-07-17 18:06:47 [INFO]: Các route đã đăng ký:
+2025-07-17 18:07:55 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:07:55 [INFO]: Server chạy trên cổng 3000 vào lúc 18:07:55 17/7/2025
+2025-07-17 18:07:55 [INFO]: Các route đã đăng ký:
+2025-07-17 18:07:59 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:07:59 [INFO]: Server chạy trên cổng 3000 vào lúc 18:07:59 17/7/2025
+2025-07-17 18:07:59 [INFO]: Các route đã đăng ký:
+2025-07-17 18:08:01 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:08:01 [INFO]: Server chạy trên cổng 3000 vào lúc 18:08:01 17/7/2025
+2025-07-17 18:08:01 [INFO]: Các route đã đăng ký:
+2025-07-17 18:08:10 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:08:10 [INFO]: Server chạy trên cổng 3000 vào lúc 18:08:10 17/7/2025
+2025-07-17 18:08:10 [INFO]: Các route đã đăng ký:
+2025-07-17 18:08:11 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:08:11 [INFO]: Server chạy trên cổng 3000 vào lúc 18:08:11 17/7/2025
+2025-07-17 18:08:11 [INFO]: Các route đã đăng ký:
+2025-07-17 18:09:40 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:09:40 [INFO]: Server chạy trên cổng 3000 vào lúc 18:09:40 17/7/2025
+2025-07-17 18:09:40 [INFO]: Các route đã đăng ký:
+2025-07-17 18:10:00 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 18:10:00 [INFO]: Server chạy trên cổng 3000 vào lúc 18:10:00 17/7/2025
+2025-07-17 18:10:00 [INFO]: Các route đã đăng ký:
+2025-07-17 18:11:34 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 18:11:45 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 18:15:36 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 18:17:48 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 18:18:44 [INFO]: Xóa danh mục: undefined
+2025-07-17 18:19:12 [INFO]: Xóa danh mục: undefined
+2025-07-17 19:50:05 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 19:50:05 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 19:50:05 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 19:50:06 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 19:50:06 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 19:50:06 [INFO]: Đóng kết nối MongoDB
+2025-07-17 19:50:16 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 19:50:16 [INFO]: Server chạy trên cổng 3000 vào lúc 19:50:16 17/7/2025
+2025-07-17 19:50:16 [INFO]: Các route đã đăng ký:
+2025-07-17 19:52:40 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 19:52:40 [INFO]: Server chạy trên cổng 3000 vào lúc 19:52:40 17/7/2025
+2025-07-17 19:52:40 [INFO]: Các route đã đăng ký:
+2025-07-17 19:58:34 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 19:58:34 [INFO]: Server chạy trên cổng 3000 vào lúc 19:58:34 17/7/2025
+2025-07-17 19:58:34 [INFO]: Các route đã đăng ký:
+2025-07-17 19:58:52 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 19:58:52 [INFO]: Server chạy trên cổng 3000 vào lúc 19:58:52 17/7/2025
+2025-07-17 19:58:52 [INFO]: Các route đã đăng ký:
+2025-07-17 20:01:50 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:01:50 [INFO]: Server chạy trên cổng 3000 vào lúc 20:01:50 17/7/2025
+2025-07-17 20:01:50 [INFO]: Các route đã đăng ký:
+2025-07-17 20:02:28 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:02:28 [INFO]: Server chạy trên cổng 3000 vào lúc 20:02:28 17/7/2025
+2025-07-17 20:02:28 [INFO]: Các route đã đăng ký:
+2025-07-17 20:03:16 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:03:16 [INFO]: Server chạy trên cổng 3000 vào lúc 20:03:16 17/7/2025
+2025-07-17 20:03:16 [INFO]: Các route đã đăng ký:
+2025-07-17 20:12:10 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:12:10 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 20:12:10 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 20:12:11 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 20:12:11 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 20:12:11 [INFO]: Đóng kết nối MongoDB
+2025-07-17 20:12:17 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:12:17 [INFO]: Server chạy trên cổng 3000 vào lúc 20:12:17 17/7/2025
+2025-07-17 20:12:17 [INFO]: Các route đã đăng ký:
+2025-07-17 20:22:30 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 20:22:33 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 20:22:48 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 20:43:03 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-17 20:43:11 [INFO]: Xóa sản phẩm: Creatine Monohydrate
+2025-07-17 20:46:45 [INFO]: Tạo sản phẩm: ádda
+2025-07-17 20:46:51 [INFO]: Xóa sản phẩm: ádda
+2025-07-17 20:48:41 [INFO]: Tạo thương hiệu: sada
+2025-07-17 20:48:42 [INFO]: Xóa thương hiệu: sada
+2025-07-17 20:49:56 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:49:56 [INFO]: Server chạy trên cổng 3000 vào lúc 20:49:56 17/7/2025
+2025-07-17 20:49:56 [INFO]: Các route đã đăng ký:
+2025-07-17 20:51:34 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:51:34 [INFO]: Server chạy trên cổng 3000 vào lúc 20:51:34 17/7/2025
+2025-07-17 20:51:34 [INFO]: Các route đã đăng ký:
+2025-07-17 20:51:50 [INFO]: Người dùng đăng nhập: tranthib@example.com
+2025-07-17 20:52:17 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:52:17 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-17 20:52:17 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-17 20:52:18 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-17 20:52:18 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-17 20:52:18 [INFO]: Đóng kết nối MongoDB
+2025-07-17 20:52:21 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:52:21 [INFO]: Server chạy trên cổng 3000 vào lúc 20:52:21 17/7/2025
+2025-07-17 20:52:21 [INFO]: Các route đã đăng ký:
+2025-07-17 20:53:05 [INFO]: Người dùng đăng nhập: tranthib@example.com
+2025-07-17 20:53:51 [INFO]: Xóa phiếu giảm giá: HEALTH10
+2025-07-17 20:54:01 [INFO]: Xóa danh mục: undefined
+2025-07-17 20:54:09 [INFO]: Cập nhật danh mục: Thực phẩm bổ sung năng lượngg
+2025-07-17 20:54:21 [INFO]: Cập nhật thương hiệu: GNCc
+2025-07-17 20:54:43 [INFO]: Cập nhật người dùng: tranthib@example.com
+2025-07-17 20:57:06 [INFO]: Kết nối MongoDB thành công!
+2025-07-17 20:57:06 [INFO]: Server chạy trên cổng 3000 vào lúc 20:57:06 17/7/2025
+2025-07-17 20:57:06 [INFO]: Các route đã đăng ký:

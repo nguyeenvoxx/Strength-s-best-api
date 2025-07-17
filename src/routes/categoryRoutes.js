@@ -8,6 +8,9 @@ router.use(authController.protect);
 router.route('/')
   .post(categoryController.createCategory)
   .get(categoryController.getCategories);
-router.delete('/:id', categoryController.deleteCategory);
+router.route('/:id')
+  .patch(categoryController.updateCategory)
+  .delete(categoryController.deleteCategory);
+  
 
 module.exports = router;

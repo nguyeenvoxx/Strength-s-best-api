@@ -8,6 +8,9 @@ router.use(authController.protect);
 router.route('/')
   .post(brandController.createBrand)
   .get(brandController.getBrands);
-router.delete('/:id', brandController.deleteBrand);
+  
+router.route('/:id')
+  .patch(brandController.updateBrand)
+  .delete(brandController.deleteBrand);
 
 module.exports = router;

@@ -16,16 +16,21 @@ const voucherRoutes = require('./src/routes/voucherRoutes');
 const adminRoutes = require('./src/routes/adminRoutes');
 const errorHandler = require('./src/utils/errorHandler');
 const logger = require('./src/utils/logger');
-require('dotenv').config();
-mongoose.connect(process.env.MONGO_URI);
+const cors = require('cors');
+// require('dotenv').config();
+// mongoose.connect(process.env.MONGO_URI);
 const app = express();
 
 // Middleware để xử lý JSON và URL-encoded
 app.use(express.json());
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.log(err));
+// mongoose.connect(process.env.MONGO_URI)
+//   .then(() => console.log('MongoDB connected'))
+//   .catch(err => console.log(err));
 app.use(express.urlencoded({ extended: true }));
+app.use(cors({
+  origin: '*',
+  credentials: true
+}));
 
 // Đăng ký các route với tiền tố /api/v1
 app.use('/api/v1/auth', authRoutes);
@@ -60,7 +65,7 @@ const logRoutes = (router, prefix = '') => {
 };
 
 // Kết nối MongoDB và khởi động server
-const PORT = process.env.PORT || 3000;
+const port = process.env.port || 3000;
 connectDB().then(() => {
   app.listen(port, () => {
     logger.info(`Server chạy trên cổng ${port} vào lúc ${new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' })}`);

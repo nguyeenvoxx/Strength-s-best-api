@@ -15,13 +15,13 @@ const logger = require('./src/utils/logger');
 
 async function updateAllData() {
   try {
-    await connectDB(); // Sử dụng connectDB
+    await connectDB();
     logger.info('Kết nối MongoDB để cập nhật dữ liệu');
 
-    // Cập nhật Users
+    // Cập nhật Users: Đặt status='active' và emailVerified=true nếu chưa có
     await User.updateMany(
-      { status: { $exists: false } },
-      { status: 'active', updatedAt: Date.now() }
+      { $or: [{ status: { $exists: false } }, { status: 'pending' }, { status: 'inactive' }] },
+      { status: 'active', emailVerified: true, updatedAt: Date.now() }
     );
 
     // Cập nhật Favorites, Carts, OrderDetails, ProductReviews
@@ -32,16 +32,18 @@ async function updateAllData() {
       ProductReview.updateMany({}, { updated_at: Date.now() })
     ]);
 
-    // Cắt bỏ khoảng trắng trong tên Categories và Brands
+    // Cắt bỏ khoảng trắng trong nameCategory (Category) và name (Brand)
     await Category.updateMany({}, [
-      { $set: { name: { $trim: { input: "$name" } }, updated_at: Date.now() } }
+      { $set: { nameCategory: { $trim: { input: "$nameCategory" } }, updated_at: Date.now() } }
     ]);
     await Brand.updateMany({}, [
       { $set: { name: { $trim: { input: "$name" } }, updated_at: Date.now() } }
     ]);
 
     // Tăng giá sản phẩm 5%
-    await Product.updateMany({}, { $mul: { priceProduct: 1.05 }, updatedAt: Date.now() });
+    await Product.updateMany({}, [
+      { $set: { priceProduct: { $multiply: ["$priceProduct", 1.05] }, updatedAt: Date.now() } }
+    ]);
 
     // Chuyển trạng thái đơn hàng từ pending sang processing
     await Order.updateMany(

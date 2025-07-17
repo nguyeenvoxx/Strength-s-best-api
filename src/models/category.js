@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Schema cho danh mục
 const categorySchema = new mongoose.Schema({
-  name: { type: String, required: true, trim: true, unique: true },
+  nameCategory: { type: String, required: true, unique: true }, 
   created_at: { type: Date, default: Date.now },
   updated_at: { type: Date, default: Date.now }
 });

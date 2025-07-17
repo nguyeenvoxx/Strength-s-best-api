@@ -6,21 +6,21 @@ const logger = require('../utils/logger');
 
 // Tạo sản phẩm
 exports.createProduct = catchAsync(async (req, res, next) => {
-  const { nameProduct, priceProduct, quantity, image, status, idBrand, idCategory, description } = req.body;
+  const { nameProduct, priceProduct, quantity, idBrand, idCategory, image, status, description } = req.body;
 
-  if (!nameProduct || !priceProduct || !quantity || !image || !status || !idBrand || !idCategory) {
-    return next(new AppError('Thiếu các trường bắt buộc', 400));
+  if (!nameProduct || !priceProduct || !quantity || !idBrand || !idCategory) {
+    return next(new AppError('Thiếu các trường bắt buộc: name, price, quantity, brand, category', 400));
   }
 
   const product = await Product.create({
     nameProduct,
     priceProduct,
     quantity,
-    image,
-    status,
     idBrand,
     idCategory,
-    description,
+    image: image || 'default.jpg',
+    status: status || 'active',
+    description: description || '',
     createdAt: Date.now(),
     updatedAt: Date.now()
   });
@@ -41,14 +41,10 @@ exports.getProducts = catchAsync(async (req, res, next) => {
     .paginate();
   const products = await features.query;
 
-  if (!products.length) {
-    return next(new AppError('Không tìm thấy sản phẩm', 404));
-  }
-
   res.status(200).json({
     status: 'thành công',
     results: products.length,
-    data: { products }
+    data: { products: products || [] }
   });
 });
 

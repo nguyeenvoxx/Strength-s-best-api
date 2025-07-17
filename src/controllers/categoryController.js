@@ -34,6 +34,25 @@ exports.getCategories = catchAsync(async (req, res, next) => {
   });
 });
 
+// Cập nhật danh mục
+exports.updateCategory = catchAsync(async (req, res, next) => {
+  const category = await Category.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true
+  });
+
+  if (!category) {
+    return next(new AppError('Không tìm thấy danh mục', 404));
+  }
+  
+  logger.info(`Cập nhật danh mục: ${category.nameCategory}`);
+  res.status(200).json({
+    status: 'thành công',
+    data: { category }
+  });
+});
+
+
 // Xóa danh mục
 exports.deleteCategory = catchAsync(async (req, res, next) => {
   const category = await Category.findByIdAndDelete(req.params.id);

@@ -1,4 +1,4 @@
-const Favorite = require('../models/Favorite');
+const Favorite = require('../models/favorite');
 const Product = require('../models/Product');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');

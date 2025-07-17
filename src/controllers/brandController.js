@@ -34,6 +34,24 @@ exports.getBrands = catchAsync(async (req, res, next) => {
   });
 });
 
+// Cập nhật thương hiệu
+exports.updateBrand = catchAsync(async (req, res, next) => {
+  const brand = await Brand.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true
+  });
+
+  if (!brand) {
+    return next(new AppError('Không tìm thấy thương hiệu', 404));
+  }
+
+  logger.info(`Cập nhật thương hiệu: ${brand.name}`);
+  res.status(200).json({
+    status: 'thành công',
+    data: { brand }
+  });
+});
+
 // Xóa thương hiệu
 exports.deleteBrand = catchAsync(async (req, res, next) => {
   const brand = await Brand.findByIdAndDelete(req.params.id);

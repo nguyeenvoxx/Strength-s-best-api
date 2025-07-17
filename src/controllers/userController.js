@@ -38,3 +38,14 @@ exports.deleteUserAccount = catchAsync(async (req, res, next) => {
     data: null
   });
 });
+
+// ADMIN ROUTES
+// Lấy tất cả người dùng (chỉ admin)
+exports.getAllUsers = catchAsync(async (req, res, next) => {
+  const users = await User.find();
+  res.status(200).json({
+    status: 'thành công',
+    results: users.length,
+    data: { users }
+  });
+});

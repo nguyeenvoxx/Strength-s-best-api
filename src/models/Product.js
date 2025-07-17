@@ -5,11 +5,11 @@ const productSchema = new mongoose.Schema({
   nameProduct: { type: String, required: true, trim: true },
   priceProduct: { type: Number, required: true, min: 0 },
   quantity: { type: Number, required: true, min: 0 },
-  image: { type: String, required: true, trim: true },
-  status: { type: String, required: true, enum: ['active', 'inactive', 'available'] },
+  image: { type: String, trim: true, default: 'default.jpg' },
+  status: { type: String, enum: ['active', 'inactive', 'available'], default: 'active' },
   idBrand: { type: mongoose.Schema.Types.ObjectId, ref: 'Brand', required: true },
   idCategory: { type: mongoose.Schema.Types.ObjectId, ref: 'Category', required: true },
-  description: { type: String, trim: true },
+  description: { type: String, trim: true, default: '' },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
 });
