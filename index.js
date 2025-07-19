@@ -17,6 +17,7 @@ const adminRoutes = require('./src/routes/adminRoutes');
 const errorHandler = require('./src/utils/errorHandler');
 const logger = require('./src/utils/logger');
 const cors = require('cors');
+const newsRoutes = require('./src/routes/newsRoutes');
 // require('dotenv').config();
 // mongoose.connect(process.env.MONGO_URI);
 const app = express();
@@ -35,7 +36,7 @@ app.use(cors({
 // Đăng ký các route với tiền tố /api/v1
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/products', productRoutes);
-app.use('/api/v1/reviews', productReviewRoutes);
+app.use('/api/v1/product-reviews', productReviewRoutes);
 app.use('/api/v1/users', userRoutes);
 app.use('/api/v1/brands', brandRoutes);
 app.use('/api/v1/carts', cartRoutes);
@@ -45,7 +46,8 @@ app.use('/api/v1/orders', orderRoutes);
 app.use('/api/v1/payments', paymentRoutes);
 app.use('/api/v1/vouchers', voucherRoutes);
 app.use('/api/v1/admin', adminRoutes);
-
+app.use('/uploads', express.static('uploads'));
+app.use('/api/v1/news', newsRoutes);
 // Middleware xử lý lỗi
 app.use(errorHandler);
 

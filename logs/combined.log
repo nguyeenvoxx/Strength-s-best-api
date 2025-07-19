@@ -392,3 +392,358 @@
 2025-07-17 20:57:06 [INFO]: Kết nối MongoDB thành công!
 2025-07-17 20:57:06 [INFO]: Server chạy trên cổng 3000 vào lúc 20:57:06 17/7/2025
 2025-07-17 20:57:06 [INFO]: Các route đã đăng ký:
+2025-07-19 14:30:51 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:30:52 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 14:30:52 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 14:30:53 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 14:30:53 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 14:30:53 [INFO]: Đóng kết nối MongoDB
+2025-07-19 14:30:58 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:30:58 [INFO]: Server chạy trên cổng 3000 vào lúc 14:30:58 19/7/2025
+2025-07-19 14:30:58 [INFO]: Các route đã đăng ký:
+2025-07-19 14:32:09 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:32:09 [INFO]: Server chạy trên cổng 3000 vào lúc 14:32:09 19/7/2025
+2025-07-19 14:32:09 [INFO]: Các route đã đăng ký:
+2025-07-19 14:32:15 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:32:15 [INFO]: Server chạy trên cổng 3000 vào lúc 14:32:15 19/7/2025
+2025-07-19 14:32:15 [INFO]: Các route đã đăng ký:
+2025-07-19 14:32:30 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-19 14:33:17 [INFO]: Cập nhật danh mục: Bột Proteina
+2025-07-19 14:33:21 [INFO]: Cập nhật danh mục: Bột Protein
+2025-07-19 14:33:52 [INFO]: Cập nhật người dùng: nguyenvana@example.com
+2025-07-19 14:33:57 [INFO]: Cập nhật người dùng: nguyenvana@example.com
+2025-07-19 14:34:01 [INFO]: Cập nhật người dùng: nguyenvana@example.com
+2025-07-19 14:34:04 [INFO]: Cập nhật người dùng: levanc@example.com
+2025-07-19 14:34:16 [INFO]: Cập nhật người dùng: phamthid@example.com
+2025-07-19 14:34:19 [INFO]: Xóa người dùng: phamthid@example.com
+2025-07-19 14:34:27 [INFO]: Tạo thương hiệu: a
+2025-07-19 14:34:28 [INFO]: Xóa thương hiệu: a
+2025-07-19 14:34:39 [INFO]: Xóa sản phẩm: B-Complex
+2025-07-19 14:34:41 [INFO]: Xóa sản phẩm: Iron 65mg
+2025-07-19 14:35:09 [INFO]: Tạo sản phẩm: a
+2025-07-19 14:35:16 [INFO]: Xóa sản phẩm: a
+2025-07-19 14:38:27 [INFO]: Xóa phiếu giảm giá: HEALTH10
+2025-07-19 14:38:52 [INFO]: Cập nhật thương hiệu: NatureMadea
+2025-07-19 14:38:56 [INFO]: Cập nhật thương hiệu: NatureMade
+2025-07-19 14:38:57 [INFO]: Tạo thương hiệu: a
+2025-07-19 14:38:59 [INFO]: Xóa thương hiệu: a
+2025-07-19 14:48:16 [INFO]: Cập nhật người dùng: levanc@example.com
+2025-07-19 14:48:21 [INFO]: Cập nhật người dùng: tranthib@example.com
+2025-07-19 14:48:38 [INFO]: Cập nhật người dùng: tranthib@example.com
+2025-07-19 14:49:57 [INFO]: Tạo thương hiệu: a
+2025-07-19 14:51:38 [INFO]: Xóa thương hiệu: a
+2025-07-19 14:51:40 [INFO]: Tạo thương hiệu: a
+2025-07-19 14:51:57 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:51:57 [INFO]: Server chạy trên cổng 3000 vào lúc 14:51:57 19/7/2025
+2025-07-19 14:51:57 [INFO]: Các route đã đăng ký:
+2025-07-19 14:52:06 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:52:06 [INFO]: Server chạy trên cổng 3000 vào lúc 14:52:06 19/7/2025
+2025-07-19 14:52:06 [INFO]: Các route đã đăng ký:
+2025-07-19 14:52:14 [INFO]: Xóa thương hiệu: a
+2025-07-19 14:52:17 [INFO]: Xóa thương hiệu: NatureMade
+2025-07-19 14:52:37 [INFO]: Cập nhật danh mục: Thực phẩm bổ sung năng lượng
+2025-07-19 14:52:42 [INFO]: Cập nhật danh mục: Thực phẩm bổ sung năng lượng
+2025-07-19 14:52:51 [INFO]: Cập nhật danh mục: Dinh dưỡng thể thao
+2025-07-19 14:53:25 [INFO]: Cập nhật phiếu giảm giá: FITNESS20a
+2025-07-19 14:56:14 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:56:14 [INFO]: Server chạy trên cổng 3000 vào lúc 14:56:14 19/7/2025
+2025-07-19 14:56:14 [INFO]: Các route đã đăng ký:
+2025-07-19 14:56:16 [INFO]: Cập nhật danh mục: Dinh dưỡng thể thao
+2025-07-19 14:57:09 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:57:09 [INFO]: Server chạy trên cổng 3000 vào lúc 14:57:09 19/7/2025
+2025-07-19 14:57:09 [INFO]: Các route đã đăng ký:
+2025-07-19 14:57:51 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 14:57:51 [INFO]: Server chạy trên cổng 3000 vào lúc 14:57:51 19/7/2025
+2025-07-19 14:57:51 [INFO]: Các route đã đăng ký:
+2025-07-19 14:59:33 [INFO]: Cập nhật danh mục: Vitamin & Khoáng chấta
+2025-07-19 14:59:44 [INFO]: Cập nhật danh mục: Vitamin & Khoáng chất
+2025-07-19 15:00:51 [INFO]: Tạo phiếu giảm giá: a
+2025-07-19 15:01:01 [INFO]: Xóa phiếu giảm giá: a
+2025-07-19 15:02:04 [INFO]: Cập nhật phiếu giảm giá: FITNESS20
+2025-07-19 15:02:18 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:02:18 [INFO]: Server chạy trên cổng 3000 vào lúc 15:02:18 19/7/2025
+2025-07-19 15:02:18 [INFO]: Các route đã đăng ký:
+2025-07-19 15:03:48 [INFO]: Tạo thương hiệu: a
+2025-07-19 15:03:50 [INFO]: Xóa thương hiệu: a
+2025-07-19 15:03:52 [INFO]: Tạo danh mục: a
+2025-07-19 15:03:54 [INFO]: Xóa danh mục: undefined
+2025-07-19 15:05:33 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:05:33 [INFO]: Server chạy trên cổng 3000 vào lúc 15:05:33 19/7/2025
+2025-07-19 15:05:33 [INFO]: Các route đã đăng ký:
+2025-07-19 15:05:48 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:05:48 [INFO]: Server chạy trên cổng 3000 vào lúc 15:05:48 19/7/2025
+2025-07-19 15:05:48 [INFO]: Các route đã đăng ký:
+2025-07-19 15:05:59 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:05:59 [INFO]: Server chạy trên cổng 3000 vào lúc 15:05:59 19/7/2025
+2025-07-19 15:05:59 [INFO]: Các route đã đăng ký:
+2025-07-19 15:09:24 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:09:24 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 15:09:24 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 15:09:25 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 15:09:25 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 15:09:25 [INFO]: Đóng kết nối MongoDB
+2025-07-19 15:09:31 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:09:31 [INFO]: Server chạy trên cổng 3000 vào lúc 15:09:31 19/7/2025
+2025-07-19 15:09:31 [INFO]: Các route đã đăng ký:
+2025-07-19 15:11:05 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:11:05 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 15:11:05 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 15:11:06 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 15:11:06 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 15:11:06 [INFO]: Đóng kết nối MongoDB
+2025-07-19 15:11:15 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:11:15 [INFO]: Server chạy trên cổng 3000 vào lúc 15:11:15 19/7/2025
+2025-07-19 15:11:15 [INFO]: Các route đã đăng ký:
+2025-07-19 15:13:33 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:13:33 [INFO]: Server chạy trên cổng 3000 vào lúc 15:13:33 19/7/2025
+2025-07-19 15:13:33 [INFO]: Các route đã đăng ký:
+2025-07-19 15:14:18 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:14:18 [INFO]: Server chạy trên cổng 3000 vào lúc 15:14:18 19/7/2025
+2025-07-19 15:14:18 [INFO]: Các route đã đăng ký:
+2025-07-19 15:18:58 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:18:58 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 15:18:59 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 15:19:02 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 15:19:02 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 15:19:02 [INFO]: Đóng kết nối MongoDB
+2025-07-19 15:19:19 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:19:19 [INFO]: Server chạy trên cổng 3000 vào lúc 15:19:19 19/7/2025
+2025-07-19 15:19:19 [INFO]: Các route đã đăng ký:
+2025-07-19 15:20:37 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-19 15:20:54 [INFO]: Xóa đánh giá 687b54f650cdbce6564fddf7
+2025-07-19 15:21:53 [INFO]: Tạo danh mục: a
+2025-07-19 15:21:55 [INFO]: Xóa danh mục: undefined
+2025-07-19 15:23:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:23:08 [INFO]: Server chạy trên cổng 3000 vào lúc 15:23:08 19/7/2025
+2025-07-19 15:23:08 [INFO]: Các route đã đăng ký:
+2025-07-19 15:24:43 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:24:43 [INFO]: Server chạy trên cổng 3000 vào lúc 15:24:43 19/7/2025
+2025-07-19 15:24:43 [INFO]: Các route đã đăng ký:
+2025-07-19 15:25:01 [INFO]: Admin trả lời đánh giá 687b54f650cdbce6564fddf8
+2025-07-19 15:27:24 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-19 15:27:39 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:27:39 [INFO]: Server chạy trên cổng 3000 vào lúc 15:27:39 19/7/2025
+2025-07-19 15:27:39 [INFO]: Các route đã đăng ký:
+2025-07-19 15:28:42 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:28:42 [INFO]: Server chạy trên cổng 3000 vào lúc 15:28:42 19/7/2025
+2025-07-19 15:28:42 [INFO]: Các route đã đăng ký:
+2025-07-19 15:32:35 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:32:35 [INFO]: Server chạy trên cổng 3000 vào lúc 15:32:35 19/7/2025
+2025-07-19 15:32:35 [INFO]: Các route đã đăng ký:
+2025-07-19 15:33:00 [INFO]: Admin cập nhật phản hồi đánh giá 687b54f650cdbce6564fddf8
+2025-07-19 15:33:33 [INFO]: Admin cập nhật phản hồi đánh giá 687b54f650cdbce6564fddfc
+2025-07-19 15:43:13 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:43:13 [INFO]: Server chạy trên cổng 3000 vào lúc 15:43:13 19/7/2025
+2025-07-19 15:43:13 [INFO]: Các route đã đăng ký:
+2025-07-19 15:46:16 [INFO]: Người dùng đăng nhập: levanc@example.com
+2025-07-19 15:50:14 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:50:14 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 15:50:14 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 15:50:15 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 15:50:15 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 15:50:15 [INFO]: Đóng kết nối MongoDB
+2025-07-19 15:50:26 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:50:26 [INFO]: Server chạy trên cổng 3000 vào lúc 15:50:26 19/7/2025
+2025-07-19 15:50:26 [INFO]: Các route đã đăng ký:
+2025-07-19 15:50:59 [INFO]: Người dùng đăng nhập: levanc@example.com
+2025-07-19 15:51:27 [INFO]: Người dùng đăng nhập: nguyenvana@example.com
+2025-07-19 15:55:45 [INFO]: Tạo phiếu giảm giá: Nguyen
+2025-07-19 15:56:03 [INFO]: Xóa phiếu giảm giá: Nguyen
+2025-07-19 15:59:25 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 15:59:25 [INFO]: Server chạy trên cổng 3000 vào lúc 15:59:25 19/7/2025
+2025-07-19 15:59:25 [INFO]: Các route đã đăng ký:
+2025-07-19 16:01:04 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:01:04 [INFO]: Server chạy trên cổng 3000 vào lúc 16:01:04 19/7/2025
+2025-07-19 16:01:04 [INFO]: Các route đã đăng ký:
+2025-07-19 16:06:20 [INFO]: Cập nhật sản phẩm: Creatine Monohydrate
+2025-07-19 16:07:34 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:07:34 [INFO]: Server chạy trên cổng 3000 vào lúc 16:07:34 19/7/2025
+2025-07-19 16:07:34 [INFO]: Các route đã đăng ký:
+2025-07-19 16:11:58 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:11:58 [INFO]: Server chạy trên cổng 3000 vào lúc 16:11:58 19/7/2025
+2025-07-19 16:11:58 [INFO]: Các route đã đăng ký:
+2025-07-19 16:12:48 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:12:48 [INFO]: Server chạy trên cổng 3000 vào lúc 16:12:48 19/7/2025
+2025-07-19 16:12:48 [INFO]: Các route đã đăng ký:
+2025-07-19 16:13:02 [INFO]: Cập nhật sản phẩm: Creatine Monohydrate
+2025-07-19 16:13:17 [INFO]: Tạo sản phẩm: a
+2025-07-19 16:15:35 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:15:35 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 16:15:35 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 16:15:36 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 16:15:36 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 16:15:36 [INFO]: Đóng kết nối MongoDB
+2025-07-19 16:15:47 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:15:47 [INFO]: Server chạy trên cổng 3000 vào lúc 16:15:47 19/7/2025
+2025-07-19 16:15:47 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:17 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:18 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:17 19/7/2025
+2025-07-19 16:16:18 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:21 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:21 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:21 19/7/2025
+2025-07-19 16:16:21 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:27 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:27 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:27 19/7/2025
+2025-07-19 16:16:27 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:38 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:39 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:38 19/7/2025
+2025-07-19 16:16:39 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:41 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:41 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:41 19/7/2025
+2025-07-19 16:16:41 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:45 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:45 [INFO]: Server chạy trên cổng 3000 vào lúc 16:16:45 19/7/2025
+2025-07-19 16:16:45 [INFO]: Các route đã đăng ký:
+2025-07-19 16:16:55 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:16:55 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 16:16:55 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 16:16:57 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 16:16:57 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 16:16:57 [INFO]: Đóng kết nối MongoDB
+2025-07-19 16:17:09 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:17:09 [INFO]: Server chạy trên cổng 3000 vào lúc 16:17:09 19/7/2025
+2025-07-19 16:17:09 [INFO]: Các route đã đăng ký:
+2025-07-19 16:17:41 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 16:17:59 [INFO]: Tạo sản phẩm: a
+2025-07-19 16:18:28 [INFO]: Tạo sản phẩm: ab
+2025-07-19 16:19:43 [INFO]: Cập nhật sản phẩm: ab
+2025-07-19 16:19:47 [INFO]: Cập nhật sản phẩm: ab
+2025-07-19 16:20:02 [INFO]: Tạo sản phẩm: a
+2025-07-19 16:20:05 [INFO]: Xóa sản phẩm: a
+2025-07-19 16:23:03 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:23:03 [INFO]: Server chạy trên cổng 3000 vào lúc 16:23:03 19/7/2025
+2025-07-19 16:23:03 [INFO]: Các route đã đăng ký:
+2025-07-19 16:27:26 [INFO]: Admin cập nhật phản hồi đánh giá 687b628919843243b30f5cc5
+2025-07-19 16:29:38 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 16:29:38 [INFO]: Server chạy trên cổng 3000 vào lúc 16:29:38 19/7/2025
+2025-07-19 16:29:38 [INFO]: Các route đã đăng ký:
+2025-07-19 16:29:59 [INFO]: Tạo sản phẩm: a
+2025-07-19 16:30:15 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 16:39:16 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 16:41:36 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 16:42:57 [INFO]: Admin cập nhật/xóa phản hồi đánh giá 687b628919843243b30f5cc5
+2025-07-19 16:44:00 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 16:45:55 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 16:45:57 [INFO]: Xóa sản phẩm: a
+2025-07-19 16:45:59 [INFO]: Xóa sản phẩm: ab
+2025-07-19 16:46:01 [INFO]: Xóa sản phẩm: a
+2025-07-19 16:48:11 [INFO]: Cập nhật sản phẩm: Creatine Monohydrate
+2025-07-19 16:48:54 [INFO]: Cập nhật sản phẩm: Magnesium 400mg
+2025-07-19 16:49:31 [INFO]: Xóa đánh giá 687b628919843243b30f5cc5
+2025-07-19 16:51:23 [INFO]: Admin cập nhật/xóa phản hồi đánh giá 687b628919843243b30f5cbc
+2025-07-19 16:51:46 [INFO]: Cập nhật sản phẩm: Creatine Monohydrate
+2025-07-19 17:05:36 [INFO]: Tạo danh mục: a
+2025-07-19 17:05:46 [INFO]: Cập nhật danh mục: a
+2025-07-19 17:05:47 [INFO]: Xóa danh mục: undefined
+2025-07-19 17:09:58 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 17:09:58 [INFO]: Server chạy trên cổng 3000 vào lúc 17:09:58 19/7/2025
+2025-07-19 17:09:58 [INFO]: Các route đã đăng ký:
+2025-07-19 17:16:04 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 17:16:04 [INFO]: Server chạy trên cổng 3000 vào lúc 17:16:04 19/7/2025
+2025-07-19 17:16:04 [INFO]: Các route đã đăng ký:
+2025-07-19 17:19:36 [INFO]: Xóa phiếu giảm giá: HEALTH10
+2025-07-19 17:24:14 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 17:24:14 [INFO]: Server chạy trên cổng 3000 vào lúc 17:24:14 19/7/2025
+2025-07-19 17:24:14 [INFO]: Các route đã đăng ký:
+2025-07-19 17:24:23 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 17:24:23 [INFO]: Server chạy trên cổng 3000 vào lúc 17:24:23 19/7/2025
+2025-07-19 17:24:23 [INFO]: Các route đã đăng ký:
+2025-07-19 18:04:04 [INFO]: Tạo danh mục: a
+2025-07-19 18:04:06 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:04:06 [INFO]: Server chạy trên cổng 3000 vào lúc 18:04:06 19/7/2025
+2025-07-19 18:04:06 [INFO]: Các route đã đăng ký:
+2025-07-19 18:04:12 [INFO]: Xóa danh mục: undefined
+2025-07-19 18:04:17 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:04:17 [INFO]: Server chạy trên cổng 3000 vào lúc 18:04:17 19/7/2025
+2025-07-19 18:04:17 [INFO]: Các route đã đăng ký:
+2025-07-19 18:07:03 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:07:03 [INFO]: Server chạy trên cổng 3000 vào lúc 18:07:03 19/7/2025
+2025-07-19 18:07:03 [INFO]: Các route đã đăng ký:
+2025-07-19 18:07:19 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:07:19 [INFO]: Server chạy trên cổng 3000 vào lúc 18:07:19 19/7/2025
+2025-07-19 18:07:19 [INFO]: Các route đã đăng ký:
+2025-07-19 18:07:33 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:07:33 [INFO]: Server chạy trên cổng 3000 vào lúc 18:07:33 19/7/2025
+2025-07-19 18:07:33 [INFO]: Các route đã đăng ký:
+2025-07-19 18:10:09 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:10:09 [INFO]: Server chạy trên cổng 3000 vào lúc 18:10:09 19/7/2025
+2025-07-19 18:10:09 [INFO]: Các route đã đăng ký:
+2025-07-19 18:10:40 [INFO]: Tạo phiếu giảm giá: a
+2025-07-19 18:11:04 [INFO]: Xóa phiếu giảm giá: a
+2025-07-19 18:14:27 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:14:27 [INFO]: Server chạy trên cổng 3000 vào lúc 18:14:27 19/7/2025
+2025-07-19 18:14:27 [INFO]: Các route đã đăng ký:
+2025-07-19 18:14:43 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:14:43 [INFO]: Server chạy trên cổng 3000 vào lúc 18:14:43 19/7/2025
+2025-07-19 18:14:43 [INFO]: Các route đã đăng ký:
+2025-07-19 18:17:40 [INFO]: Xóa đánh giá 687b628919843243b30f5cc4
+2025-07-19 18:19:23 [INFO]: Cập nhật người dùng: admin@example.com
+2025-07-19 18:19:26 [INFO]: Cập nhật người dùng: admin@example.com
+2025-07-19 18:47:15 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:47:15 [INFO]: Server chạy trên cổng 3000 vào lúc 18:47:15 19/7/2025
+2025-07-19 18:47:15 [INFO]: Các route đã đăng ký:
+2025-07-19 18:48:30 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:48:30 [INFO]: Server chạy trên cổng 3000 vào lúc 18:48:30 19/7/2025
+2025-07-19 18:48:30 [INFO]: Các route đã đăng ký:
+2025-07-19 18:50:43 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:50:43 [INFO]: Server chạy trên cổng 3000 vào lúc 18:50:43 19/7/2025
+2025-07-19 18:50:43 [INFO]: Các route đã đăng ký:
+2025-07-19 18:51:48 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:51:48 [INFO]: Server chạy trên cổng 3000 vào lúc 18:51:48 19/7/2025
+2025-07-19 18:51:48 [INFO]: Các route đã đăng ký:
+2025-07-19 18:52:45 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:52:45 [INFO]: Server chạy trên cổng 3000 vào lúc 18:52:45 19/7/2025
+2025-07-19 18:52:45 [INFO]: Các route đã đăng ký:
+2025-07-19 18:57:03 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 18:57:03 [INFO]: Server chạy trên cổng 3000 vào lúc 18:57:03 19/7/2025
+2025-07-19 18:57:03 [INFO]: Các route đã đăng ký:
+2025-07-19 19:04:07 [INFO]: Xóa sản phẩm: Creatine Monohydrate
+2025-07-19 19:17:11 [INFO]: Cập nhật thương hiệu: GNCc
+2025-07-19 20:26:56 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:26:56 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 20:26:56 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 20:26:57 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 20:26:57 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 20:26:57 [INFO]: Đóng kết nối MongoDB
+2025-07-19 20:27:01 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:27:02 [INFO]: Server chạy trên cổng 3000 vào lúc 20:27:01 19/7/2025
+2025-07-19 20:27:02 [INFO]: Các route đã đăng ký:
+2025-07-19 20:30:32 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 20:34:27 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 20:34:59 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:34:59 [INFO]: Kết nối MongoDB để nạp dữ liệu
+2025-07-19 20:34:59 [INFO]: Xóa dữ liệu cũ thành công
+2025-07-19 20:35:00 [INFO]: Nạp dữ liệu người dùng thành công
+2025-07-19 20:35:00 [INFO]: Nạp dữ liệu mẫu thành công
+2025-07-19 20:35:00 [INFO]: Đóng kết nối MongoDB
+2025-07-19 20:35:04 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:35:04 [INFO]: Server chạy trên cổng 3000 vào lúc 20:35:04 19/7/2025
+2025-07-19 20:35:04 [INFO]: Các route đã đăng ký:
+2025-07-19 20:35:20 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 20:39:36 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 20:48:03 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:48:03 [INFO]: Server chạy trên cổng 3000 vào lúc 20:48:03 19/7/2025
+2025-07-19 20:48:03 [INFO]: Các route đã đăng ký:
+2025-07-19 20:48:05 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:48:05 [INFO]: Server chạy trên cổng 3000 vào lúc 20:48:05 19/7/2025
+2025-07-19 20:48:05 [INFO]: Các route đã đăng ký:
+2025-07-19 20:48:09 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:48:09 [INFO]: Server chạy trên cổng 3000 vào lúc 20:48:09 19/7/2025
+2025-07-19 20:48:09 [INFO]: Các route đã đăng ký:
+2025-07-19 20:56:08 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:56:08 [INFO]: Server chạy trên cổng 3000 vào lúc 20:56:08 19/7/2025
+2025-07-19 20:56:08 [INFO]: Các route đã đăng ký:
+2025-07-19 20:56:32 [INFO]: Kết nối MongoDB thành công!
+2025-07-19 20:56:32 [INFO]: Server chạy trên cổng 3000 vào lúc 20:56:32 19/7/2025
+2025-07-19 20:56:32 [INFO]: Các route đã đăng ký:
+2025-07-19 21:04:26 [INFO]: Người dùng đăng nhập: levanc@example.com
+2025-07-19 21:04:42 [INFO]: Người dùng đăng nhập: admin@gmail.com
+2025-07-19 21:05:43 [INFO]: Tạo sản phẩm: a
+2025-07-19 21:06:00 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 21:06:22 [INFO]: Cập nhật sản phẩm: a
+2025-07-19 21:07:57 [INFO]: Cập nhật sản phẩm: B
+2025-07-19 21:08:15 [INFO]: Tạo thương hiệu: a
+2025-07-19 21:08:27 [INFO]: Xóa thương hiệu: a
+2025-07-19 21:10:07 [INFO]: Cập nhật người dùng: admin@gmail.com
+2025-07-19 21:12:15 [INFO]: Cập nhật phiếu giảm giá: HEALTH10
+2025-07-19 21:12:27 [INFO]: Tạo phiếu giảm giá: a

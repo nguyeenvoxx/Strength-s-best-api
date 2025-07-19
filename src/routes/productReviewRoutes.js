@@ -9,5 +9,8 @@ router.route('/')
   .post(productReviewController.createReview)
   .get(productReviewController.getReviews);
 router.delete('/:id', productReviewController.deleteReview);
+router.post('/:id/admin-replies', productReviewController.addAdminReply);
+router.patch('/:id/admin-replies', productReviewController.editAdminReply);
+router.delete('/:id/admin-replies', productReviewController.deleteAdminReply);
 
 module.exports = router;

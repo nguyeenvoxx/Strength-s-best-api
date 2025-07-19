@@ -40,12 +40,17 @@ exports.deleteUserAccount = catchAsync(async (req, res, next) => {
 });
 
 // ADMIN ROUTES
-// Lấy tất cả người dùng (chỉ admin)
+// Lấy tất cả người dùng (có phân trang)
 exports.getAllUsers = catchAsync(async (req, res, next) => {
-  const users = await User.find();
+  let { page = 1, limit = 10 } = req.query;
+  page = parseInt(page) || 1;
+  limit = parseInt(limit) || 10;
+  const skip = (page - 1) * limit;
+  const total = await User.countDocuments();
+  const users = await User.find().skip(skip).limit(limit);
   res.status(200).json({
     status: 'thành công',
-    results: users.length,
+    results: total,
     data: { users }
   });
 });

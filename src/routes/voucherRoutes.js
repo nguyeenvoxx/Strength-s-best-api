@@ -9,5 +9,8 @@ router.route('/')
   .post(voucherController.createVoucher)
   .get(voucherController.getVouchers);
 router.delete('/:id', voucherController.deleteVoucher);
+router.patch('/:id', voucherController.updateVoucher);
+router.patch('/:id/status', voucherController.setVoucherStatus);
+router.patch('/:id/conditions', voucherController.updateVoucherConditions);
 
 module.exports = router;

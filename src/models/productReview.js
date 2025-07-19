@@ -7,6 +7,14 @@ const productReviewSchema = new mongoose.Schema({
   idOrderDetail: { type: mongoose.Schema.Types.ObjectId, ref: 'OrderDetail', required: true },
   rating: { type: Number, required: true, min: 1, max: 5 },
   review: { type: String, trim: true, maxlength: 1000 },
+  adminReplies: [
+    {
+      content: { type: String, trim: true, maxlength: 1000 },
+      createdAt: { type: Date, default: Date.now },
+      updatedAt: { type: Date, default: Date.now },
+      admin: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+    }
+  ],
   created_at: { type: Date, default: Date.now },
   updated_at: { type: Date, default: Date.now }
 });

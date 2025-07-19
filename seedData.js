@@ -37,7 +37,8 @@ const brandsData = [
 ];
 
 const usersData = [
-  { name: 'Nguyễn Văn A', email: 'nguyenvana@example.com', password: 'password123', phoneNumber: '+84912345678', address: '123 Đường Láng, Hà Nội', role: 'admin', status: 'active', createdAt: Date.now(), updatedAt: Date.now() },
+  
+  { name: 'Nguyễn Văn A', email: 'admin@gmail.com', password: '123456a', phoneNumber: '+84912345678', address: '123 Đường Láng, Hà Nội', role: 'admin', status: 'active', createdAt: Date.now(), updatedAt: Date.now() },
   { name: 'Trần Thị B', email: 'tranthib@example.com', password: 'password123', phoneNumber: '+84987654321', address: '456 Nguyễn Huệ, TP.HCM', role: 'admin', status: 'active', createdAt: Date.now(), updatedAt: Date.now() },
   { name: 'Lê Văn C', email: 'levanc@example.com', password: 'password123', phoneNumber: '+84912345679', address: '789 Hai Bà Trưng, Đà Nẵng', role: 'user', status: 'active', createdAt: Date.now(), updatedAt: Date.now() },
   { name: 'Phạm Thị D', email: 'phamthid@example.com', password: 'password123', phoneNumber: '+84912345680', address: '101 Lê Lợi, Huế', role: 'user', status: 'active', createdAt: Date.now(), updatedAt: Date.now() },

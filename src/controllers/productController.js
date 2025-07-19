@@ -6,10 +6,17 @@ const logger = require('../utils/logger');
 
 // Tạo sản phẩm
 exports.createProduct = catchAsync(async (req, res, next) => {
-  const { nameProduct, priceProduct, quantity, idBrand, idCategory, image, status, description } = req.body;
+  const { nameProduct, priceProduct, quantity, idBrand, idCategory, status, description } = req.body;
+  let image = req.body.image;
+  if (req.file) {
+    image = req.file.filename;
+  }
 
   if (!nameProduct || !priceProduct || !quantity || !idBrand || !idCategory) {
     return next(new AppError('Thiếu các trường bắt buộc: name, price, quantity, brand, category', 400));
+  }
+  if (Number(quantity) < 1) {
+    return next(new AppError('Số lượng sản phẩm phải lớn hơn 0', 400));
   }
 
   const product = await Product.create({
@@ -34,16 +41,19 @@ exports.createProduct = catchAsync(async (req, res, next) => {
 
 // Lấy tất cả sản phẩm
 exports.getProducts = catchAsync(async (req, res, next) => {
-  const features = new APIFeatures(Product.find(), req.query)
+  let { page = 1, limit = 10 } = req.query;
+  page = parseInt(page) || 1;
+  limit = parseInt(limit) || 10;
+  const skip = (page - 1) * limit;
+  const total = await Product.countDocuments();
+  const features = new APIFeatures(Product.find().skip(skip).limit(limit), req.query)
     .filter()
     .sort()
-    .limitFields()
-    .paginate();
+    .limitFields();
   const products = await features.query;
-
   res.status(200).json({
     status: 'thành công',
-    results: products.length,
+    results: total,
     data: { products: products || [] }
   });
 });
@@ -63,7 +73,14 @@ exports.getProduct = catchAsync(async (req, res, next) => {
 
 // Cập nhật sản phẩm
 exports.updateProduct = catchAsync(async (req, res, next) => {
-  const product = await Product.findByIdAndUpdate(req.params.id, req.body, {
+  let updateData = { ...req.body };
+  if (req.file) {
+    updateData.image = req.file.filename;
+  }
+  if (updateData.quantity !== undefined && Number(updateData.quantity) < 1) {
+    return next(new AppError('Số lượng sản phẩm phải lớn hơn 0', 400));
+  }
+  const product = await Product.findByIdAndUpdate(req.params.id, updateData, {
     new: true,
     runValidators: true
   });

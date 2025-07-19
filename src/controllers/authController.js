@@ -3,6 +3,8 @@ const User = require('../models/User');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 const logger = require('../utils/logger');
+const Voucher = require('../models/voucher');
+const sendMail = require('../utils/sendMail');
 
 const JWT_SECRET = 'my-very-secure-jwt-secret-123';
 
@@ -32,6 +34,20 @@ exports.signup = catchAsync(async (req, res, next) => {
   const token = signToken(newUser._id);
 
   logger.info(`Người dùng mới đăng ký: ${email}`);
+  // Sau khi tạo user thành công:
+  const user = newUser; // user vừa tạo
+  // Tạo voucher
+  const voucherCode = user.name || user.email.split('@')[0];
+  const voucher = await Voucher.create({
+    code: voucherCode,
+    count: 1,
+    discount: 30,
+    expiryDate: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+    description: 'Voucher chào mừng thành viên mới',
+    conditions: { minOrderValue: 0, userLimit: 1 },
+  });
+  // Gửi email xác nhận + voucher
+  await sendMail.sendWelcomeEmail(user.email, user.name, voucherCode);
   res.status(201).json({
     status: 'thành công',
     token,

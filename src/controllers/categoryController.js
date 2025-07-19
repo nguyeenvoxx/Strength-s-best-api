@@ -5,19 +5,19 @@ const logger = require('../utils/logger');
 
 // Tạo danh mục
 exports.createCategory = catchAsync(async (req, res, next) => {
-  const { name } = req.body;
+  const { nameCategory } = req.body;
 
-  if (!name) {
+  if (!nameCategory) {
     return next(new AppError('Tên danh mục là bắt buộc', 400));
   }
 
   const category = await Category.create({
-    name,
+    nameCategory,
     created_at: Date.now(),
     updated_at: Date.now()
   });
 
-  logger.info(`Tạo danh mục: ${name}`);
+  logger.info(`Tạo danh mục: ${nameCategory}`);
   res.status(201).json({
     status: 'thành công',
     data: { category }
